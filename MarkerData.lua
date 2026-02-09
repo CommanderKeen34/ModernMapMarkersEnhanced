@@ -100,6 +100,8 @@ ModernMapMarkers_Points = {
 	{2, 26, 0.601, 0.713, "Auktionshaus", "ah", "Allianz", nil},
 	{2, 26, 0.540, 0.545, "Priester Ausbilder", "teacher_class", "Allianz", nil},
 	{2, 26, 0.618, 0.311, "Ingenieurskunst Ausbilder", "teacher_prof", "Allianz", nil},
+
+	{2, 33, 0.641, 0.193, "Mail", "mail", "Allianz", nil},
 }
 
 ModernMapMarkers_Points_en = {
@@ -197,4 +199,5 @@ ModernMapMarkers_Points_en = {
 	{2, 29, 0.312, 0.298, "Zeppelins to UC & Orgrimmar", "zepp", "Horde", nil},
 	{2, 4, 0.075, 0.480, "Zeppelin to Orgrimmar", "zepp", "Horde",  nil},
 	{2, 1, 0.531, 0.047, "Boat to Auberdine", "boat", "Alliance", nil},
+
 }
