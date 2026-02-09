@@ -48,7 +48,7 @@ local function CreateMapPin(parent, x, y, size, texture, tooltipText, tooltipInf
 
     local MapTooltip
     pin:SetScript("OnEnter", function()
-        WorldMapTooltip:SetOwner(pin, "ANCHOR_BOTTOMRIGHT", -15, 15)
+        WorldMapTooltip:SetOwner(pin, 'ANCHOR_RIGHT')
         WorldMapTooltip:SetText(tooltipText, 1, 1 ,1)
         if tooltipInfo == "Alliance" then
             WorldMapTooltip:AddLine(tooltipInfo, 0.145, 0.588, 0.745)
@@ -164,6 +164,27 @@ local function UpdateMarkers()
                     size = 24
                 elseif kind == "tram" then
                     texture = "Interface\\Addons\\ModernMapMarkers\\Textures\\tram.tga"
+                    size = 24
+				elseif kind == "bank" then
+                    texture = "Interface\\Addons\\ModernMapMarkers\\Textures\\bank.tga"
+                    size = 24
+				elseif kind == "teacher_class" then
+                    texture = "Interface\\Addons\\ModernMapMarkers\\Textures\\teacher_class.tga"
+                    size = 24
+				elseif kind == "teacher_prof" then
+                    texture = "Interface\\Addons\\ModernMapMarkers\\Textures\\teacher_class.tga"
+                    size = 24
+				elseif kind == "tavern" then
+                    texture = "Interface\\Addons\\ModernMapMarkers\\Textures\\tavern.tga"
+                    size = 24
+				elseif kind == "anvil" then
+                    texture = "Interface\\Addons\\ModernMapMarkers\\Textures\\anvil.tga"
+                    size = 24
+				elseif kind == "ah" then
+                    texture = "Interface\\Addons\\ModernMapMarkers\\Textures\\ah.tga"
+                    size = 24
+				elseif kind == "mail" then
+                    texture = "Interface\\Addons\\ModernMapMarkers\\Textures\\mail.tga"
                     size = 24
                 else -- Dungeon
                     texture = "Interface\\Addons\\ModernMapMarkers\\Textures\\dungeon.tga"
