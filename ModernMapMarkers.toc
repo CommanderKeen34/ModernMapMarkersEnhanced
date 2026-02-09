@@ -6,5 +6,6 @@
 ## OptionalDeps: Atlas, AtlasQuest
 ## SavedVariables: ModernMapMarkersDB
 
-MarkerData.lua
+MarkerDataEN.lua
+MarkerDataDE.lua
 ModernMapMarkers.lua
