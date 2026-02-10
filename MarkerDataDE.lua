@@ -99,17 +99,18 @@ ModernMapMarkers_Points_DE = {
 	{2, 26, 0.610, 0.740, "Mail", "mail", "Allianz", nil},
 	{2, 26, 0.598, 0.752, "Gasthaus", "tavern", "Allianz", nil},
 	{2, 26, 0.601, 0.713, "Auktionshaus", "ah", "Allianz", nil},
-	{2, 26, 0.500, 0.450, "Priester Lehrer", "teacher_class", "Allianz", nil},
-	{2, 26, 0.618, 0.311, "Ingenieurskunst Ausbilder", "teacher_prof", "Allianz", nil},
+	{2, 26, 0.500, 0.450, "Priester Lehrer", "classteacher_priest", "Allianz", nil},
+	{2, 26, 0.618, 0.311, "Ingenieurskunst Ausbilder", "profession_engineer", "Allianz", nil},
 
 	-- Verwuestete Lande - 33
 	{2, 33, 0.641, 0.193, "Mail", "mail", "Allianz", nil},
 	
 	-- Tanaris - 25
-	{1, 25, 0.47, 0.31, "Gasthaus", "tavern", "Allianz", nil},
-	{1, 25, 0.49, 0.31, "Mail", "mail", "Allianz", nil},
-	{1, 25, 0.51, 0.31, "Bank", "bank", "Allianz", nil},
-	{1, 25, 0.53, 0.31, "Auktionshaus", "ah", "Allianz", nil},
-	{1, 25, 0.55, 0.31, "Amboss", "anvil", "Allianz", nil},
+	{1, 25, 0.47, 0.23, "Gasthaus", "tavern", "Allianz", nil},
+	{1, 25, 0.49, 0.23, "Mail", "mail", "Allianz", nil},
+	{1, 25, 0.51, 0.23, "Bank", "bank", "Allianz", nil},
+	{1, 25, 0.53, 0.23, "Auktionshaus", "ah", "Allianz", nil},
+	{1, 25, 0.55, 0.23, "Amboss", "anvil", "Allianz", nil},
 }
+
 
