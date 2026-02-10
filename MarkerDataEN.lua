@@ -101,6 +101,9 @@ ModernMapMarkers_Points_EN = {
 	{2, 28, 0.598, 0.752, "Tavern", "tavern", "Allianz", nil},
 	{2, 28, 0.601, 0.713, "Auction House", "ah", "Allianz", nil},
 	{2, 28, 0.500, 0.450, "Priest Teacher", "classteacher_priest", "Allianz", nil},
+	
+	
+	
 	{2, 28, 0.618, 0.311, "Engineering Teacher", "profession_engineer", "Allianz", nil},
 
 	-- Verwuestete Lande - 7
@@ -112,4 +115,19 @@ ModernMapMarkers_Points_EN = {
 	{1, 23, 0.51, 0.23, "Bank", "bank", "Allianz", nil},
 	{1, 23, 0.53, 0.23, "Auction House", "ah", "Allianz", nil},
 	{1, 23, 0.55, 0.23, "Anvil", "anvil", "Allianz", nil},
+	
+	-- Ogrimmar - 20
+	{1, 20, 0.618, 0.311, "Kräuterkunde Ausbilder", "profession_herbs", "Allianz", nil},
+	{1, 20, 0.553, 0.342, "Alchemie Ausbilder", "profession_alchemy", "Allianz", nil},
+	
+		--[[
+	{2, 26, 0.500, 0.450, "Priest Teacher", "classteacher_priest", "Allianz", nil},
+	{2, 26, 0.500, 0.450, "Warrior Teacher", "classteacher_warrior", "Allianz", nil},
+	{2, 26, 0.500, 0.450, "Paladin Teacher", "classteacher_paladin", "Allianz", nil},
+	{2, 26, 0.500, 0.450, "Rogue Teacher", "classteacher_rogue", "Allianz", nil},
+	{2, 26, 0.500, 0.450, "Mage Teacher", "classteacher_mage", "Allianz", nil},
+	{2, 26, 0.500, 0.450, "Warlock Teacher", "classteacher_warlock", "Allianz", nil},
+	{2, 26, 0.500, 0.450, "Hunter Teacher", "classteacher_hunter", "Allianz", nil},
+	{2, 26, 0.500, 0.450, "Druid Teacher", "classteacher_druid", "Allianz", nil},
+	]]
 }
