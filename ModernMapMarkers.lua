@@ -38,8 +38,8 @@ local function CreateMapPin(parent, x, y, size, texture, tooltipText, tooltipInf
     end
 
     pin:SetParent(parent)
-    pin:SetWidth(size)
-    pin:SetHeight(size)
+    pin:SetWidth(size*0.6)
+    pin:SetHeight(size*0.6)
     pin:ClearAllPoints()
     pin:SetPoint("CENTER", parent, "TOPLEFT", x, -y) 
     pin.texture:SetTexture(texture)
@@ -163,7 +163,7 @@ local function UpdateMarkers()
             if isMatching then
                 local size = 32
                 local texture = "Interface\\Addons\\ModernMapMarkers\\Textures\\POIIcons.blp"
-                
+                --[[
                 if kind == "raid" then
                     texture = "Interface\\Addons\\ModernMapMarkers\\Textures\\raid.tga"
                 elseif kind == "worldboss" then
@@ -181,7 +181,22 @@ local function UpdateMarkers()
                     texture = "Interface\\Addons\\ModernMapMarkers\\Textures\\bank.tga"
                     size = 24
 				elseif kind == "classteacher_priest" then
-                    texture = "Interface\\Addons\\ModernMapMarkers\\Textures\\teacher_class.tga"
+                    texture = "Interface\\Addons\\ModernMapMarkers\\Textures\\classteacher_priest.tga"
+                    size = 24
+				elseif kind == "classteacher_priest" then
+                    texture = "Interface\\Addons\\ModernMapMarkers\\Textures\\classteacher_priest.tga"
+                    size = 24
+				elseif kind == "classteacher_priest" then
+                    texture = "Interface\\Addons\\ModernMapMarkers\\Textures\\classteacher_priest.tga"
+                    size = 24
+				elseif kind == "classteacher_priest" then
+                    texture = "Interface\\Addons\\ModernMapMarkers\\Textures\\classteacher_priest.tga"
+                    size = 24
+				elseif kind == "classteacher_priest" then
+                    texture = "Interface\\Addons\\ModernMapMarkers\\Textures\\classteacher_priest.tga"
+                    size = 24
+				elseif kind == "profession_alchemy" then
+                    texture = "Interface\\Addons\\ModernMapMarkers\\Textures\\profession_alchemy.tga"
                     size = 24
 				elseif kind == "profession_engineer" then
                     texture = "Interface\\Addons\\ModernMapMarkers\\Textures\\teacher_class.tga"
@@ -201,6 +216,9 @@ local function UpdateMarkers()
                 else -- Dungeon
                     texture = "Interface\\Addons\\ModernMapMarkers\\Textures\\dungeon.tga"
                 end
+				]]
+				
+				texture = "Interface\\Addons\\ModernMapMarkers\\Textures\\" .. kind .. ".tga"
 
                 local px, py = x * mapWidth, y * mapHeight
                 local pin = CreateMapPin(worldMap, px, py, size, texture, label, info, atlasID)        
