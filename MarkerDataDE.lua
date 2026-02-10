@@ -106,9 +106,10 @@ ModernMapMarkers_Points_DE = {
 	{2, 33, 0.641, 0.193, "Mail", "mail", "Allianz", nil},
 	
 	-- Tanaris - 25
-	{1, 25, 0.47, 0.23, "Gasthaus", "tavern", "Allianz", nil},
-	{1, 25, 0.49, 0.23, "Mail", "mail", "Allianz", nil},
-	{1, 25, 0.51, 0.23, "Bank", "bank", "Allianz", nil},
-	{1, 25, 0.53, 0.23, "Auktionshaus", "ah", "Allianz", nil},
-	{1, 25, 0.55, 0.23, "Amboss", "anvil", "Allianz", nil},
+	{1, 25, 0.47, 0.31, "Gasthaus", "tavern", "Allianz", nil},
+	{1, 25, 0.49, 0.31, "Mail", "mail", "Allianz", nil},
+	{1, 25, 0.51, 0.31, "Bank", "bank", "Allianz", nil},
+	{1, 25, 0.53, 0.31, "Auktionshaus", "ah", "Allianz", nil},
+	{1, 25, 0.55, 0.31, "Amboss", "anvil", "Allianz", nil},
 }
+
