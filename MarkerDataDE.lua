@@ -99,8 +99,22 @@ ModernMapMarkers_Points_DE = {
 	{2, 26, 0.610, 0.740, "Mail", "mail", "Allianz", nil},
 	{2, 26, 0.598, 0.752, "Gasthaus", "tavern", "Allianz", nil},
 	{2, 26, 0.601, 0.713, "Auktionshaus", "ah", "Allianz", nil},
-	{2, 26, 0.500, 0.450, "Priester Lehrer", "classteacher_priest", "Allianz", nil},
-	{2, 26, 0.618, 0.311, "Ingenieurskunst Ausbilder", "profession_engineer", "Allianz", nil},
+	
+	{2, 26, 0.500, 0.450, "Priester Lehrer", "classteacher_priest", "Allianz", nil},		
+	{2, 26, 0.792, 0.623, "Krieger Lehrer", "classteacher_warrior", "Allianz", nil},
+	{2, 26, 0.538, 0.544, "Paladin Lehrer", "classteacher_paladin", "Allianz", nil},
+	{2, 26, 0.786, 0.680, "Schurke Lehrer", "classteacher_rogue", "Allianz", nil},
+	{2, 26, 0.496, 0.878, "Magier Lehrer", "classteacher_mage", "Allianz", nil},
+	{2, 26, 0.423, 0.817, "Hexenmeister Lehrer", "classteacher_warlock", "Allianz", nil},
+	{2, 26, 0.676, 0.359, "Jäger Lehrer", "classteacher_hunter", "Allianz", nil},
+	{2, 26, 0.369, 0.652, "Druide Lehrer", "classteacher_druid", "Allianz", nil},
+	
+	
+	{2, 26, 0.618, 0.311, "Ingenieurskunst Ausbilder", "profession_engineering", "Allianz", nil},
+	{2, 26, 0.742, 0.562, "Kochen Ausbilder", "profession_cooking", "Allianz", nil},
+	{2, 26, 0.530, 0.446, "Erste Hilfe Ausbilder", "profession_firstaid", "Allianz", nil},
+    --{1, 21, 0.618, 0.311, "Kräuterkunde Ausbilder", "profession_herbs", "Allianz", nil},
+	--{1, 21, 0.618, 0.311, "Alchemie Ausbilder", "profession_alchemy", "Allianz", nil},
 
 	-- Verwuestete Lande - 33
 	{2, 33, 0.641, 0.193, "Mail", "mail", "Allianz", nil},
@@ -111,6 +125,21 @@ ModernMapMarkers_Points_DE = {
 	{1, 25, 0.51, 0.23, "Bank", "bank", "Allianz", nil},
 	{1, 25, 0.53, 0.23, "Auktionshaus", "ah", "Allianz", nil},
 	{1, 25, 0.55, 0.23, "Amboss", "anvil", "Allianz", nil},
+	
+	-- Ogrimmar - 21
+	{1, 21, 0.618, 0.311, "Kräuterkunde Ausbilder", "profession_herbalism", "Allianz", nil},
+	{1, 21, 0.618, 0.311, "Alchemie Ausbilder", "profession_alchemy", "Allianz", nil},
+	
+	--[[
+	{2, 26, 0.500, 0.450, "Priester Lehrer", "classteacher_priest", "Allianz", nil},
+	{2, 26, 0.500, 0.450, "Krieger Lehrer", "classteacher_warrior", "Allianz", nil},
+	{2, 26, 0.500, 0.450, "Paladin Lehrer", "classteacher_paladin", "Allianz", nil},
+	{2, 26, 0.500, 0.450, "Schurke Lehrer", "classteacher_rogue", "Allianz", nil},
+	{2, 26, 0.500, 0.450, "Magier Lehrer", "classteacher_mage", "Allianz", nil},
+	{2, 26, 0.500, 0.450, "Hexenmeister Lehrer", "classteacher_warlock", "Allianz", nil},
+	{2, 26, 0.500, 0.450, "Jäger Lehrer", "classteacher_hunter", "Allianz", nil},
+	{2, 26, 0.500, 0.450, "Druide Lehrer", "classteacher_druid", "Allianz", nil},
+	]]
 }
 
 
