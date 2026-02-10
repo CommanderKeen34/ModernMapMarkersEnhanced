@@ -100,8 +100,8 @@ ModernMapMarkers_Points_EN = {
 	{2, 28, 0.610, 0.740, "Mail", "mail", "Allianz", nil},
 	{2, 28, 0.598, 0.752, "Tavern", "tavern", "Allianz", nil},
 	{2, 28, 0.601, 0.713, "Auction House", "ah", "Allianz", nil},
-	{2, 28, 0.500, 0.450, "Priest Teacher", "teacher_class", "Allianz", nil},
-	{2, 28, 0.618, 0.311, "Engineering Teacher", "teacher_prof", "Allianz", nil},
+	{2, 28, 0.500, 0.450, "Priest Teacher", "classteacher_priest", "Allianz", nil},
+	{2, 28, 0.618, 0.311, "Engineering Teacher", "profession_engineer", "Allianz", nil},
 
 	-- Verwuestete Lande - 7
 	{2, 7, 0.641, 0.193, "Mail", "mail", "Allianz", nil},
