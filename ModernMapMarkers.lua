@@ -180,10 +180,10 @@ local function UpdateMarkers()
 				elseif kind == "bank" then
                     texture = "Interface\\Addons\\ModernMapMarkers\\Textures\\bank.tga"
                     size = 24
-				elseif kind == "teacher_class" then
+				elseif kind == "classteacher_priest" then
                     texture = "Interface\\Addons\\ModernMapMarkers\\Textures\\teacher_class.tga"
                     size = 24
-				elseif kind == "teacher_prof" then
+				elseif kind == "profession_engineer" then
                     texture = "Interface\\Addons\\ModernMapMarkers\\Textures\\teacher_class.tga"
                     size = 24
 				elseif kind == "tavern" then
@@ -454,3 +454,4 @@ end
 if debug then
     DEFAULT_CHAT_FRAME:AddMessage("Modern Map Markers: Initial Load Complete")
 end
+
