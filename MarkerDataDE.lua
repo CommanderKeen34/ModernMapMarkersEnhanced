@@ -1,5 +1,5 @@
 -- Format: { continent, zoneID, x, y, name, type, info, Atlas ID }
-ModernMapMarkers_Points = {
+ModernMapMarkers_Points_DE = {
     -- Kalimdor Dungeons
     {1, 11, 0.123, 0.128, "Tiefschwarze Grotte", "dungeon", "24-32", 2},
     {1, 25, 0.66, 0.49, "Höhlen der Zeit: Schwarzer Morast", "dungeon", "60", 1},
@@ -93,7 +93,8 @@ ModernMapMarkers_Points = {
 	{2, 23, 0.312, 0.298, "Zeppeline nach Unterstadt & Orgrimmar", "zepp", "Horde", nil}, -- Horde
 	{2, 38, 0.075, 0.480, "Zeppelin nach Orgrimmar", "zepp", "Horde",  nil}, -- Horde
 	{2, 1, 0.531, 0.047, "Schiff nach Auberdine", "boat", "Allianz", nil}, -- alliance
-	-- Sturmwind Map Markers
+	
+	-- Sturmwind - 26
 	{2, 26, 0.622, 0.769, "Bank", "bank", "Allianz", nil},
 	{2, 26, 0.610, 0.740, "Mail", "mail", "Allianz", nil},
 	{2, 26, 0.598, 0.752, "Gasthaus", "tavern", "Allianz", nil},
@@ -101,10 +102,10 @@ ModernMapMarkers_Points = {
 	{2, 26, 0.500, 0.450, "Priester Lehrer", "teacher_class", "Allianz", nil},
 	{2, 26, 0.618, 0.311, "Ingenieurskunst Ausbilder", "teacher_prof", "Allianz", nil},
 
-	-- Verwuestete Lande
+	-- Verwuestete Lande - 33
 	{2, 33, 0.641, 0.193, "Mail", "mail", "Allianz", nil},
 	
-	-- Tanaris
+	-- Tanaris - 25
 	{1, 25, 0.47, 0.23, "Gasthaus", "tavern", "Allianz", nil},
 	{1, 25, 0.49, 0.23, "Mail", "mail", "Allianz", nil},
 	{1, 25, 0.51, 0.23, "Bank", "bank", "Allianz", nil},
