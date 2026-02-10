@@ -1,3 +1,9 @@
+# ModernMapMarkersEnhanced for TurtleWoW (localized for EN and DE clients)
+Based on the work of tilr & Heallios
+
+Enhanced Version of ModernMapMarkers improves the in-game city maps by displaying additional icons and helpful details for important locations.
+Banks, auction houses, class trainers, and other essential services are clearly marked, making it faster and easier to navigate through major cities.
+
 # ModernMapMarkers for TurtleWoW
 Places markers on the world map to show the locations of dungeons, raids, world bosses, boats, zeppelins, and trams.
 
