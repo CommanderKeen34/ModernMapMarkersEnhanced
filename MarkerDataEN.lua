@@ -1,5 +1,5 @@
 -- Format: { continent, zoneID, x, y, name, type, info, Atlas ID }
-ModernMapMarkers_Points = {
+ModernMapMarkers_Points_EN = {
     -- Kalimdor Dungeons
     {1, 1, 0.123, 0.128, "Blackfathom Deeps", "dungeon", "24-32", 2},
     {1, 23, 0.66, 0.49, "Black Morass", "dungeon", "60", 1},
@@ -94,4 +94,22 @@ ModernMapMarkers_Points = {
 	{2, 29, 0.312, 0.298, "Zeppelins to UC & Orgrimmar", "zepp", "Horde", nil},
 	{2, 4, 0.075, 0.480, "Zeppelin to Orgrimmar", "zepp", "Horde",  nil},
 	{2, 1, 0.531, 0.047, "Boat to Auberdine", "boat", "Alliance", nil},
+	
+	-- Sturmwind - 28
+	{2, 28, 0.622, 0.769, "Bank", "bank", "Allianz", nil},
+	{2, 28, 0.610, 0.740, "Mail", "mail", "Allianz", nil},
+	{2, 28, 0.598, 0.752, "Tavern", "tavern", "Allianz", nil},
+	{2, 28, 0.601, 0.713, "Auction House", "ah", "Allianz", nil},
+	{2, 28, 0.500, 0.450, "Priest Teacher", "teacher_class", "Allianz", nil},
+	{2, 28, 0.618, 0.311, "Engineering Teacher", "teacher_prof", "Allianz", nil},
+
+	-- Verwuestete Lande - 7
+	{2, 7, 0.641, 0.193, "Mail", "mail", "Allianz", nil},
+	
+	-- Tanaris - 23
+	{1, 23, 0.47, 0.23, "Tavern", "tavern", "Allianz", nil},
+	{1, 23, 0.49, 0.23, "Mail", "mail", "Allianz", nil},
+	{1, 23, 0.51, 0.23, "Bank", "bank", "Allianz", nil},
+	{1, 23, 0.53, 0.23, "Auction House", "ah", "Allianz", nil},
+	{1, 23, 0.55, 0.23, "Anvil", "anvil", "Allianz", nil},
 }
