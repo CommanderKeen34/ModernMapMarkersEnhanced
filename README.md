@@ -1,4 +1,5 @@
-# ModernMapMarkersEnhanced for TurtleWoW (localized for EN and DE clients)
+# ModernMapMarkersEnhanced for TurtleWoW 
+# (localized for EN and DE clients)
 Based on the work of tilr & Heallios
 
 Enhanced Version of ModernMapMarkers improves the in-game city maps by displaying additional icons and helpful details for important locations.
