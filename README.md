@@ -5,6 +5,10 @@ Based on the work of tilr & Heallios
 Enhanced Version of ModernMapMarkers improves the in-game city maps by displaying additional icons and helpful details for important locations.
 Banks, auction houses, class trainers, and other essential services are clearly marked, making it faster and easier to navigate through major cities.
 
+Developement is in progress! You can help, just send me coordinates you want to see ingame like:
+
+Zone or City, type like auction house or bank and coordinates of the location in x and Y like '50.6 , 27.0'. I will insert it. My ingame name is 'Baraheal' on Nordanaar.
+
 # ModernMapMarkers for TurtleWoW
 Places markers on the world map to show the locations of dungeons, raids, world bosses, boats, zeppelins, and trams.
 
