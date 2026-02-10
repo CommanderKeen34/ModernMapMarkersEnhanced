@@ -65,7 +65,7 @@ local function CreateMapPin(parent, x, y, size, texture, tooltipText, tooltipInf
     pin:SetScript("OnLeave", function()
         WorldMapTooltip:Hide()
     end)
-
+--[[
     pin:SetScript("OnClick", function() 
         if texture == "Interface\\Addons\\ModernMapMarkers\\Textures\\worldboss.tga" then
             return
@@ -94,6 +94,7 @@ local function CreateMapPin(parent, x, y, size, texture, tooltipText, tooltipInf
             end
         end
     end)
+	]]
     return pin
 end
 
@@ -112,7 +113,18 @@ local function UpdateMarkers()
             print("Atlas is installed but missing required function Atlas_CheckAddonInstalled")
         end
     end
+	
+	local locale = GetLocale()
 
+	local pointsByLocale = {
+		deDE = ModernMapMarkers_Points_DE,
+		enUS = ModernMapMarkers_Points_EN,
+		enGB = ModernMapMarkers_Points_EN,
+	}
+
+	local ModernMapMarkers_Points =
+		pointsByLocale[locale] or ModernMapMarkers_Points_EN
+		
     if not ModernMapMarkers_Points then
         return
     end
